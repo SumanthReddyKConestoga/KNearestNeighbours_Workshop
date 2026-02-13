@@ -1,0 +1,51 @@
+# ----------------------------
+# Python / Virtual Environments
+# ----------------------------
+.venv/
+venv/
+env/
+ENV/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+dist/
+build/
+pip-wheel-metadata/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ----------------------------
+# Jupyter
+# ----------------------------
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# ----------------------------
+# OS junk
+# ----------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ----------------------------
+# VS Code
+# ----------------------------
+.vscode/
+.history/
+
+# ----------------------------
+# Secrets / local configs
+# ----------------------------
+.env
+.env.*
+*.key
+*.pem
+
+# ----------------------------
+# Logs
+# ----------------------------
+*.log
