@@ -1,5 +1,4 @@
 ```
-
 # K-Nearest Neighbours (KNN) Workshop — Winter Olympics Medals (WinterSD.csv)
 
 ## 0) Business Framing (Why this matters)
@@ -162,7 +161,7 @@ Use these in class or when writing your submission reflection.
 ```bash
 git clone https://github.com/SumanthReddyKConestoga/KNearestNeighbours_Workshop.git
 cd KNearestNeighbours_Workshop
-
+```
 ```
 ### 8.2 Create and activate a virtual environment
 
@@ -259,3 +258,4 @@ git push
 ### Matplotlib backend errors (e.g., “widget not recognised”)
 
 * Use a standard backend and
+```
