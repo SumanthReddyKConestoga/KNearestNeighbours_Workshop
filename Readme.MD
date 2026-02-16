@@ -11,7 +11,7 @@ Our objective is to **predict medal type (Gold / Silver / Bronze)** using event 
 - To build a **strong baseline** model (KNN) that we can later compare against more advanced models.
 - To demonstrate that **“similar historical contexts”** can be leveraged to make predictions—while staying academically honest.
 
-> Academic safety line: **Correlation ≠ causation**. This model learns statistical patterns; it does not prove causal drivers of medals.
+> safety line: **Correlation ≠ causation**. This model learns statistical patterns; it does not prove causal drivers of medals.
 
 ---
 
@@ -124,34 +124,14 @@ Accuracy can hide class-specific failures; F1/Recall/Precision provide deeper tr
 
 ---
 
-## 7) Talking Points (Presentation-ready narrative)
-Use these in class or when writing your submission reflection.
-
-### Talking Point A — Business Value
+## 7) Talking Points
+### Talking Points
 - We frame medal prediction as a classification task to show how historical context can inform outcomes.
-- This provides a baseline that is transparent and easy to explain.
-
-### Talking Point B — KNN as a baseline model
 - KNN is interpretable: *“show me the neighbors.”*
-- It highlights the importance of preprocessing more than most models.
-
-### Talking Point C — EDA as governance
 - EDA is how we confirm data quality and avoid misleading modeling.
-- It’s the difference between “running code” and “doing data science.”
-
-### Talking Point D — Encoding is everything for distance models
 - Good encoding = meaningful similarity  
 - Bad encoding = random distance = random predictions
-
-### Talking Point E — Tuning `k` is disciplined engineering
-- We select `k` through evaluation—not guesswork.
-- This makes the result defensible.
-
-### Talking Point F — Interpretability via confusion matrix
 - Confusion matrix shows which medals are being mixed up.
-- It guides feature improvement ideas (e.g., better event context).
-
-### Talking Point G — Academic integrity line
 - The model captures associations, not causality.
 - The output is a predictive pattern, not a causal explanation.
 
